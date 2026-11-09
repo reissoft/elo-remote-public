@@ -1,0 +1,11 @@
+*.exe
+*.zip
+*.tar.gz
+*.pem
+*.key
+*.part
+downloads/
+dist/
+__pycache__/
+*.pyc
+.env
