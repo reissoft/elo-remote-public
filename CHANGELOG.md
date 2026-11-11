@@ -1,5 +1,13 @@
 # Notas de versão
 
+## 0.1.53
+
+- Modo LAN e configuração manual removidos da interface; Internet pronta no primeiro uso.
+- Cadastro automático de identidade sem compartilhar chave administrativa.
+- IDs e configurações de hosts já configurados preservados.
+- Um único atalho de ajuda para conexão direta.
+- Mensagem específica para ID inexistente, sem manter a tentativa indefinidamente.
+
 ## 0.1.52
 
 - Windows com Qt WebEngine embutido, sem depender de Edge/WebView2 ou navegador instalado.
