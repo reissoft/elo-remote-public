@@ -5,7 +5,9 @@
 Extraia `EloRemote-Windows.zip` em uma pasta própria, como
 `%LOCALAPPDATA%/Programs/EloRemote`, e abra `EloRemote.exe`. Mantenha juntos os
 arquivos do pacote. Não use o arquivo dentro do ZIP nem uma pasta protegida se
-quiser atualização automática sem administrador. O aplicativo usa WebView2.
+quiser atualização automática sem administrador. A partir da versão 0.1.52,
+o motor Qt WebEngine acompanha o executável: não é necessário instalar Edge,
+WebView2, Chrome ou qualquer outro navegador para abrir a interface.
 
 ## Linux x86_64
 
