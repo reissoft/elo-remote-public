@@ -1,5 +1,12 @@
 # Notas de versão
 
+## 0.1.54
+
+- Notificações compatíveis com Qt, sem dependência de WinForms/.NET.
+- Avisos mais compactos, com fundo sólido e sem contorno desenhado.
+- Disponibilidade consultada também para computadores adicionados por ID.
+- Indicador “Em uso” informa ocupação sem bloquear vagas restantes.
+
 ## 0.1.53
 
 - Modo LAN e configuração manual removidos da interface; Internet pronta no primeiro uso.
