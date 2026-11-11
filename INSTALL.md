@@ -9,6 +9,10 @@ quiser atualização automática sem administrador. A partir da versão 0.1.52,
 o motor Qt WebEngine acompanha o executável: não é necessário instalar Edge,
 WebView2, Chrome ou qualquer outro navegador para abrir a interface.
 
+Desde 0.1.53, o app já usa a sinalização pela Internet, sem importar perfil ou
+escolher modo LAN. Inicie o acesso no host e copie o ID. Instalações que antes
+usavam somente LAN geram um novo ID público; copie-o novamente no cliente.
+
 ## Linux x86_64
 
 Extraia `EloRemote-Linux-x86_64.tar.gz` em `~/.local/opt/elo-remote` ou em outra
