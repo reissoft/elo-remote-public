@@ -1,5 +1,14 @@
 # Notas de versão
 
+## 0.1.57
+
+- Nova identidade Elo Remote em grafite e verde jade, com logo de elos conectados.
+- Tela inicial unificada com computadores salvos, conexão rápida por ID e painel deste computador.
+- Ação Conectar em cada cartão e menus individuais para renomear e remover computadores.
+- Preferências de transmissão e conexão reunidas nas configurações; permissões continuam disponíveis no painel do host.
+- Cliente web 0.1.57 com a mesma identidade, layout responsivo e controles da sessão preservados.
+- Histórico, IDs, conta, licença e atualização automática preservados. Sem mudança de protocolo nem reinício dos servidores.
+
 ## 0.1.56
 
 - Corrigida a instalação do serviço Windows que falhava com “Python int too large to convert to C long”.
