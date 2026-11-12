@@ -1,5 +1,9 @@
 # Notas de versão
 
+## 0.1.58
+
+- Corrigido o alinhamento do menu lateral: Conta, Ocultar na bandeja, Licença e Sair usam o mesmo alinhamento à esquerda, fonte e espaçamento interno.
+
 ## 0.1.57
 
 - Nova identidade Elo Remote em grafite e verde jade, com logo de elos conectados.
