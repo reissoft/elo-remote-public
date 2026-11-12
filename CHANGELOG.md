@@ -1,5 +1,12 @@
 # Notas de versão
 
+## 0.1.59
+
+- Corrigida falha OpenProcess/Acesso negado ao autenticar o serviço Windows.
+- Autenticação baseada no PID real do pipe e na configuração protegida do SCM, sem consultar a imagem do processo System.
+- Falha do serviço opcional deixa o host disponível no modo normal, com aviso, sem encerrar o motor.
+- Serviço compatível por protocolo, cache de motores assinados e atualização em caminho novo sem substituir executável em uso.
+
 ## 0.1.58
 
 - Corrigido o alinhamento do menu lateral: Conta, Ocultar na bandeja, Licença e Sair usam o mesmo alinhamento à esquerda, fonte e espaçamento interno.
