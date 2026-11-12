@@ -1,5 +1,14 @@
 # Notas de versão
 
+## 0.1.55
+
+- Interface desktop nativa em Windows e Linux, sem WebView, Qt ou Chromium.
+- Tema escuro, cores, organização das telas e cartões preservados.
+- Licença offline, idiomas, conta, convites por link/QR, arquivos, notificações e atualização integrados à interface nativa.
+- Serviço Windows opcional, instalado pelo usuário nas configurações, para suporte a janelas elevadas e telas protegidas.
+- Input normal dos jogos continua local; helper privilegiado só entra quando necessário.
+- Protocolo de conexão preservado, sem atualização dos servidores.
+
 ## 0.1.54
 
 - Notificações compatíveis com Qt, sem dependência de WinForms/.NET.
