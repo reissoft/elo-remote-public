@@ -1,5 +1,11 @@
 # Notas de versão
 
+## 0.1.60
+
+- Corrigida a exibição do ID completo no painel deste computador, ajustando a fonte ao espaço disponível.
+- Layout validado com IDs reais de 16 caracteres e diferentes escalas de tela.
+- Mantidas a compatibilidade do protocolo e as correções do serviço Windows da versão anterior.
+
 ## 0.1.59
 
 - Corrigida falha OpenProcess/Acesso negado ao autenticar o serviço Windows.
