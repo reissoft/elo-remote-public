@@ -1,5 +1,14 @@
 # Notas de versão
 
+## 0.1.61
+
+- Reativada a opção Somente aplicativo nas configurações do host Windows, com escolha do executável e argumentos.
+- Corrigidas a conexão por ID, a aprovação de acesso, a validade dos convites e a recuperação após falha de captura.
+- Cliente web com uma única área de exibição, alternando entre a janela principal e seus diálogos, e barra superior padrão preservada.
+- Teclado virtual Unicode, gamepad físico/virtual e áudio do sistema opcionais no modo aplicativo, respeitando as permissões do host.
+- Controle virtual neutralizado ao perder foco, desconectar ou deixar de receber comandos.
+- Mantida a compatibilidade do protocolo; nenhuma atualização de servidor necessária.
+
 ## 0.1.60
 
 - Corrigida a exibição do ID completo no painel deste computador, ajustando a fonte ao espaço disponível.
