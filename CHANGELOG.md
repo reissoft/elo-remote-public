@@ -1,5 +1,10 @@
 # Notas de versão
 
+## 0.1.56
+
+- Corrigida a instalação do serviço Windows que falhava com “Python int too large to convert to C long”.
+- Máscara de permissões corrigida e validada com a API real do Windows em arquivo temporário.
+
 ## 0.1.55
 
 - Interface desktop nativa em Windows e Linux, sem WebView, Qt ou Chromium.
