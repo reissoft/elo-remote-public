@@ -1,5 +1,13 @@
 # Notas de versão
 
+## 0.1.62
+
+- Modo Somente aplicativo com vídeo H.264 em clientes PC/Linux e web atualizados, usando o encoder do desktop e captura exclusiva das janelas autorizadas.
+- Captura configurável a 30 ou 60 FPS, até Full HD por janela; eliminada a conversão para JPEG no novo caminho de vídeo.
+- Filas de apenas um quadro por janela e espera assíncrona, sem acumular atraso nem ocupar threads com janelas sem imagem.
+- Cliente web mantém uma única área de exibição e alterna para diálogos, preservando a barra superior, teclado virtual, gamepad e áudio.
+- Clientes antigos continuam usando o modo JPEG compatível. Sem mudança ou reinício nos servidores.
+
 ## 0.1.61
 
 - Reativada a opção Somente aplicativo nas configurações do host Windows, com escolha do executável e argumentos.
