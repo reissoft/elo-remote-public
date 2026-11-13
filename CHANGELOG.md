@@ -1,5 +1,14 @@
 # Notas de versão
 
+## 0.1.63
+
+- Todas as janelas do aplicativo reunidas na mesma área em clientes PC/Linux e web atualizados, mantendo suas posições e a ordem de sobreposição.
+- Área expandida automaticamente para janelas distantes; espaços entre elas permanecem pretos, sem captura de monitor ou outros aplicativos.
+- Menus recebem mouse sem criar outra janela local nem forçar uma troca de foco no host.
+- Bordas e barras de título preservadas; coordenadas estáveis durante o arraste e restauração de janelas minimizadas.
+- Captura alternativa de menus e diálogos clássicos ajustada para incluir a janela completa.
+- Mantidos H.264, áudio, teclado virtual e gamepad, com negociação compatível e sem atualização de servidor.
+
 ## 0.1.62
 
 - Modo Somente aplicativo com vídeo H.264 em clientes PC/Linux e web atualizados, usando o encoder do desktop e captura exclusiva das janelas autorizadas.
