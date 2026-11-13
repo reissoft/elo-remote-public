@@ -1,5 +1,12 @@
 # Notas de versão
 
+## 0.1.65
+
+- Menus, dicas e pequenos diálogos transmitidos em PNG sem perda, preservando letras finas e dimensões originais nos clientes Windows/Linux e web.
+- H.264 mantido nas janelas principais e maiores; imagens pequenas sem alterações não são recodificadas.
+- Capturas incompletas rejeitadas para evitar imagens esticadas.
+- Negociação compatível com versões anteriores, sem atualização ou reinício de servidores.
+
 ## 0.1.64
 
 - Corrigida a conexão por ID que podia descartar o anúncio de H.264 e área única antes da aprovação e voltar silenciosamente a janelas separadas.
