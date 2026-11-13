@@ -1,5 +1,13 @@
 # Notas de versão
 
+## 0.1.66
+
+- Somente aplicativo assume processos já abertos do executável selecionado, no mesmo usuário e sessão do Windows, sem iniciar uma segunda instância.
+- Identificação pelo caminho completo e identidade do processo, incluindo processos filhos; desconectar não encerra o aplicativo.
+- Atalhos do Windows, troca de aplicativos e abertura do menu Iniciar bloqueados no host; teclas liberadas ao perder o foco.
+- Indicador de espera substituído por pontinhos nos clientes nativo e web.
+- Sem atualização ou reinício dos servidores.
+
 ## 0.1.65
 
 - Menus, dicas e pequenos diálogos transmitidos em PNG sem perda, preservando letras finas e dimensões originais nos clientes Windows/Linux e web.
