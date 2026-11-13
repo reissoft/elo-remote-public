@@ -1,5 +1,12 @@
 # Notas de versão
 
+## 0.1.64
+
+- Corrigida a conexão por ID que podia descartar o anúncio de H.264 e área única antes da aprovação e voltar silenciosamente a janelas separadas.
+- Capacidades reenviadas após a autorização, nos clientes PC/Linux e web.
+- Acrescentados diagnósticos do transporte e do layout efetivamente negociados.
+- Testes com aprovação atrasada e sinalização local real; sem atualização ou reinício de servidores.
+
 ## 0.1.63
 
 - Todas as janelas do aplicativo reunidas na mesma área em clientes PC/Linux e web atualizados, mantendo suas posições e a ordem de sobreposição.
