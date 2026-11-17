@@ -1,5 +1,11 @@
 # Notas de versão
 
+## 0.1.83
+
+- Nova opção Pro nas Configurações para gravar automaticamente os acessos recebidos, com um arquivo local por conexão.
+- Inicia a gravação ao conectar e finaliza ao desconectar; permite abrir a pasta de gravações pelas Configurações.
+- Corrige o contraste da tabela do histórico, incluindo cabeçalhos e seleção.
+
 ## 0.1.82
 
 - Abrir o app mantém a janela visível. A ida para a bandeja passa a depender de ação do usuário; a restauração do host permanece.
