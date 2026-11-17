@@ -11,6 +11,7 @@ não concede licença pública para o código-fonte proprietário do Elo Remote.
 - Python: https://docs.python.org/3/license.html
 - Tcl/Tk: https://www.tcl-lang.org/software/tcltk/license.html
 - Pillow: https://pillow.readthedocs.io/en/stable/about.html#license
+- Instalador NSIS: https://nsis.sourceforge.io/License — o instalador inclui `NSIS-LICENSE.txt` com os avisos correspondentes.
 
 ## Pacotes anteriores
 
