@@ -12,7 +12,7 @@ from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PublicKey
 
 ROOT = Path(__file__).resolve().parents[1]
 NAMES = {'EloRemote-windows-x86_64.exe', 'EloRemote-linux-x86_64', 'EloRemote-Windows.zip',
-         'EloRemote-Linux-x86_64.tar.gz', 'libjuice-LICENSE.txt', 'libjuice-source.tar.gz'}
+         'EloRemote-Linux-x86_64.tar.gz', 'libjuice-LICENSE.txt', 'libjuice-source.tar.gz','EloRemote-Setup-x86_64.exe'}
 ALL = NAMES | {'update.json', 'update.json.sig', 'SHA256SUMS.txt'}
 
 
@@ -36,7 +36,7 @@ def verify(folder, tag, repository, public_key):
         with path.open('rb') as stream:
             for chunk in iter(lambda: stream.read(1024*1024), b''): result.update(chunk)
         if result.hexdigest() != info['sha256']: raise ValueError('Wrong asset digest')
-    for platform, name in [('windows-x86_64','EloRemote-windows-x86_64.exe'), ('linux-x86_64','EloRemote-linux-x86_64')]:
+    for platform, name in [('windows-x86_64','EloRemote-windows-x86_64.exe'), ('linux-x86_64','EloRemote-linux-x86_64'),('windows-installer-x86_64','EloRemote-Setup-x86_64.exe')]:
         asset = manifest['assets'][platform]
         if asset['name'] != name or {k:asset[k] for k in ('sha256','size')} != manifest['downloads'][name]:
             raise ValueError('Updater payload does not match release')
@@ -65,11 +65,11 @@ def main():
             if tuple(map(int,old['version'].split('.'))) > tuple(map(int,manifest['version'].split('.'))):
                 raise ValueError('Refusing to downgrade last')
         else:
-            gh('release','create','last','--repo',repository,'--title','Elo Remote — última versão estável',
-               '--notes','Links permanentes de download. Consulte o histórico para versões anteriores.','--latest=false')
+            gh('release','create','last','--repo',repository,'--title','Elo Remote â€” Ãºltima versÃ£o estÃ¡vel',
+               '--notes','Links permanentes de download. Consulte o histÃ³rico para versÃµes anteriores.','--latest=false')
         ordered=sorted(ALL-{'update.json.sig'})+['update.json.sig']
         gh('release','upload','last','--repo',repository,'--clobber',*[str(folder/name) for name in ordered])
-        gh('release','edit','last','--repo',repository,'--notes','Última versão estável: '+manifest['version']+'. Links permanentes de download.')
+        gh('release','edit','last','--repo',repository,'--notes','Ãšltima versÃ£o estÃ¡vel: '+manifest['version']+'. Links permanentes de download.')
 
 
 if __name__=='__main__': main()
