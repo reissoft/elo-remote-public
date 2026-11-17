@@ -2,21 +2,28 @@
 
 ## Windows x86_64
 
-Extraia `EloRemote-Windows.zip` em uma pasta própria, como
-`%LOCALAPPDATA%/Programs/EloRemote`, e abra `EloRemote.exe`. Mantenha juntos os
-arquivos do pacote. Não use o arquivo dentro do ZIP nem uma pasta protegida se
-quiser atualização automática sem administrador. A partir da versão 0.1.55,
-a interface é nativa, com Tcl/Tk embutido. Não é necessário instalar Edge,
-WebView2, Chrome, Qt ou qualquer navegador para abrir a interface.
+Baixe e execute `EloRemote-Setup-x86_64.exe`. O instalador coloca o app em
+Arquivos de Programas, cria atalhos e registra a desinstalação no Windows.
+Não fecha sessões à força nem abre o app automaticamente sem sua escolha.
+A versão instalada mantém as bibliotecas na pasta do app e recebe as próximas
+atualizações pelo instalador verificado, após o aplicativo fechar.
+
+A versão portátil continua disponível em `EloRemote-Windows.zip`: extraia em
+uma pasta própria e abra `EloRemote.exe`, mantendo os arquivos juntos.
+Desde 0.1.81, o app Windows solicita administrador ao abrir. Cancelar não abre
+uma interface sem elevação. Não é necessário instalar navegadores para a interface.
+
+Ainda não há assinatura Authenticode: o instalador pode continuar mostrando
+aviso de aplicativo não reconhecido no Windows. A assinatura Ed25519 do canal
+de atualização verifica integridade, mas não substitui a assinatura Windows.
 
 Desde 0.1.53, o app já usa a sinalização pela Internet, sem importar perfil ou
 escolher modo LAN. Inicie o acesso no host e copie o ID. Instalações que antes
 usavam somente LAN geram um novo ID público; copie-o novamente no cliente.
 
-Para suporte administrativo no host, use **Configurações → Acesso administrativo
-do host → Instalar ou atualizar serviço**, com o acesso remoto encerrado.
-A instalação pede autorização de administrador uma vez e preserva o UAC.
-A atualização do serviço é explícita; não ocorre silenciosamente com o app.
+O app novo não instala nem utiliza serviço administrativo. A migração tenta
+remover o serviço antigo quando estiver sem agentes ativos; acessos em uso são
+preservados. Executar elevado não garante controle da tela segura do UAC.
 
 ## Linux x86_64
 
