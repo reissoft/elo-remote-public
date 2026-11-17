@@ -7,7 +7,8 @@ O código-fonte do aplicativo é mantido separadamente.
 
 ## Baixar a última versão estável
 
-- [Windows x86_64 — ZIP](https://github.com/reissoft/elo-remote-public/releases/download/last/EloRemote-Windows.zip)
+- [Windows x86_64 — Instalador](https://github.com/reissoft/elo-remote-public/releases/download/last/EloRemote-Setup-x86_64.exe)
+- [Windows x86_64 — ZIP portátil](https://github.com/reissoft/elo-remote-public/releases/download/last/EloRemote-Windows.zip)
 - [Linux x86_64 — tar.gz](https://github.com/reissoft/elo-remote-public/releases/download/last/EloRemote-Linux-x86_64.tar.gz)
 - [Histórico de versões](https://github.com/reissoft/elo-remote-public/releases)
 - [Site e cliente web](https://eloremote.site/)
@@ -15,7 +16,9 @@ O código-fonte do aplicativo é mantido separadamente.
 A release **last** é permanente: os links acima continuam iguais quando sai uma
 nova versão. Cada lançamento também é preservado em uma release `vX.Y.Z`.
 
-Extraia o pacote em uma pasta de seu usuário e abra o executável. No Linux,
+No Windows, execute o instalador; o aplicativo solicita administrador ao abrir.
+O instalador ainda não possui assinatura Authenticode e pode exibir aviso de
+aplicativo não reconhecido. No Linux, extraia o pacote em uma pasta própria e
 preserve a permissão de execução (`chmod +x EloRemote-Linux-x86_64` se necessário).
 O pacote Linux é compilado no Ubuntu 24.04 x86_64 (glibc 2.39) e precisa de um
 ambiente gráfico e das bibliotecas de sistema descritas em [Instalação](INSTALL.md).
