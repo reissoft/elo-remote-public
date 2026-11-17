@@ -1,5 +1,11 @@
 # Notas de versão
 
+## 0.1.84
+
+- O instalador oferece iniciar o Elo Remote com o Windows como administrador, ao entrar na conta usada na instalação. A opção vem desmarcada em instalações novas.
+- A inicialização automática usa tarefa agendada com sessão interativa, sem serviço ou senha armazenada. Configurá-la não inicia nem reinicia o aplicativo.
+- Atualizações silenciosas preservam a escolha; a desinstalação remove as tarefas desta instalação.
+
 ## 0.1.83
 
 - Nova opção Pro nas Configurações para gravar automaticamente os acessos recebidos, com um arquivo local por conexão.
