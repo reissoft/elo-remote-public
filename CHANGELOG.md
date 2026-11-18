@@ -1,5 +1,9 @@
 # Notas de versão
 
+## 0.1.88
+
+- Corrige a identificação de rede local no cliente web para conexões IPv6 na mesma sub-rede com candidato STUN. O aviso continua visível por seis segundos.
+
 ## 0.1.87
 
 - Adiciona captura de monitor via DXGI Desktop Duplication no Windows, com fallback para MSS/GDI em monitores ou drivers sem suporte.
