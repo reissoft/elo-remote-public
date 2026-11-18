@@ -1,5 +1,13 @@
 # Notas de versão
 
+## 0.1.87
+
+- Adiciona captura de monitor via DXGI Desktop Duplication no Windows, com fallback para MSS/GDI em monitores ou drivers sem suporte.
+- Reduz cópias de pixels entre captura, NumPy e PyAV, mantendo a propriedade dos buffers e as filas curtas.
+- Usa espera de alta resolução por worker no Windows, sem alterar globalmente a resolução do temporizador do sistema.
+- Mantém a regra de desempenho e as medições; o painel identifica o backend de captura e os quadros reutilizados em cenas estáticas.
+- O aviso Rede local desaparece após seis segundos no app e no cliente web. O estado da conexão permanece inalterado.
+
 ## 0.1.86
 
 - Adiciona medições do monitor principal ao painel Ctrl+Shift+M: FPS de captura, preparação, codificação e envio, médias/p95 por etapa e descartes.
