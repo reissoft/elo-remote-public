@@ -1,5 +1,11 @@
 # Notas de versão
 
+## 0.1.85
+
+- Prioriza tentativas pela rede local no aplicativo e no cliente web, com fallback para as demais rotas. Localização e autenticação continuam pela internet.
+- Mostra discretamente Rede local somente quando a rota em uso é confirmada. O navegador recebe essa confirmação pela conexão criptografada com o host atualizado.
+- Preserva as permissões, a criptografia e as regras do plano gratuito e do Pro, sem mudanças nas VPS.
+
 ## 0.1.84
 
 - O instalador oferece iniciar o Elo Remote com o Windows como administrador, ao entrar na conta usada na instalação. A opção vem desmarcada em instalações novas.
