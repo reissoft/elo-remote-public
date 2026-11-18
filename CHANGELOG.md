@@ -1,5 +1,12 @@
 # Notas de versão
 
+## 0.1.86
+
+- Adiciona medições do monitor principal ao painel Ctrl+Shift+M: FPS de captura, preparação, codificação e envio, médias/p95 por etapa e descartes.
+- Mede também preparação do capturador, idade do quadro, espera pelo worker, tempo total do worker, codec, empacotamento, retorno ao loop e envio RTP local.
+- Registra um resumo numérico a cada cinco segundos, com histórico de amostras limitado e sem armazenar imagens.
+- Mantém a regra de desempenho, os bitrates por qualidade e as filas curtas existentes.
+
 ## 0.1.85
 
 - Prioriza tentativas pela rede local no aplicativo e no cliente web, com fallback para as demais rotas. Localização e autenticação continuam pela internet.
